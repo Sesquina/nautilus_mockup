@@ -1,0 +1,45 @@
+
+* {
+  transition: all 0.3s ease-in-out;
+}
+
+.container {
+  clear: both;
+  overflow: auto;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  float: right;
+  padding:0;
+}
+
+.logo-img {
+  float: left;
+}
+
+ul li {
+  display: inline-block;
+  padding: 4px; 
+  font-size: 20px;
+  Font-weight: 200;
+  Font-Family: 'Source Sans Pro', Sans-Serif;
+}
+
+ul li:hover {
+  color: #B58D34;
+}
+.subscribe-btn{
+  background-color: black;
+  border-color: black;
+  color: white;
+  align-items: center;
+  margin: 4px 2px;
+  cursor: pointer;
+  padding: 10px 10px;
+}
+.subscribe-btn:hover{
+  color: #B58D34;
+}
